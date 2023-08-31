@@ -1,0 +1,17 @@
+1.1 ไม่ทำงาน
+1.2 ทำงาน 1 ครั้ง
+
+2.1 ทำงาน
+2.2 1 ครั้ง
+2.3 if(execlp("/bin/1ls","ls","-la",NULL)){/*A*/
+            exit(0);
+            printf("can you see this2?\n");/*B*/
+        }
+2.4 printf("can you see this1?\n");/*C*/ ไว้ข้างนอก else
+
+3.1 /usr/bin/ls
+3.2 /usr/bin/ps
+3.3 /usr/bin/whoami
+3.4 type is a builtin
+3.5 cd is a function with definition
+3.6 ได้
